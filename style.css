@@ -1,0 +1,37 @@
+body {
+    margin: 0%;
+    font-family: 'Poppins';
+    
+}
+
+.header {
+    height: 700px;
+    width: 100%;
+    background-color: rgb(200, 192, 192);
+}
+
+.circle {
+    width: 100%;
+    height: 100%;
+    background-color: #6fb14b;
+    clip-path: circle(40% at right 20%);
+
+}
+.info-section {
+    text-align: center;
+    margin: auto;
+    height: 600px;
+    width: 55%;
+}
+.row-1 {
+    display: flex;
+    justify-content: space-around;
+    
+}
+.row-1 #text{
+    margin: auto 10px;
+}
+.row-1 h2{
+    color: #EAAB1B;
+    font-size: 30px;
+}

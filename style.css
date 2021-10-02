@@ -162,3 +162,21 @@ font-size: 15px;
     height: 50px;
     width: 80%;
 }
+
+.footer-section {
+    background-color: #C9ECB5;
+    height: 250px;
+    width: 80%;
+    margin: auto;
+}
+.footer {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.col-2 {
+    display: flex;
+}

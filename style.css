@@ -35,3 +35,49 @@ body {
     color: #EAAB1B;
     font-size: 30px;
 }
+
+
+/* Menu section */
+
+
+.menu-section {
+    height: 400px;
+    text-align: center;
+    width: 60%;
+    background-color: rgb(200, 192, 192); 
+    margin: auto;
+    padding: 20px 0;
+}
+
+.section-title {
+    font-size: 30px;
+}
+.section-title span {
+    color: #6fb14b;
+}
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu-item {
+    display: flex;
+    height: 100px;
+    width: 300px;
+    margin: 10px;
+    
+}
+.menu-info {
+    background-color: azure;
+}
+.menu-info h2 {
+font-size: 15px;
+}
+.menu-info p {
+    font-size: 10px;
+    }
+
+
+/* Hot Deals Section */

@@ -118,3 +118,24 @@ font-size: 15px;
     text-align: center;
     margin-right: 30px;
 }
+
+/* Contact Us Section */
+
+.contact-section {
+    height: 400px;
+    text-align: center;
+    width: 80%;
+    background-color:  #FFD77C;
+    margin: auto;
+    padding: 20px 0;   
+}
+.contact {
+    margin: auto;
+    width: 60%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+

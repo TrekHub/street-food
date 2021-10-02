@@ -43,7 +43,7 @@ body {
 .menu-section {
     height: 400px;
     text-align: center;
-    width: 60%;
+    width: 80%;
     background-color: rgb(200, 192, 192); 
     margin: auto;
     padding: 20px 0;
@@ -81,3 +81,40 @@ font-size: 15px;
 
 
 /* Hot Deals Section */
+
+.deal-section {
+    height: 600px;
+    text-align: center;
+    width: 80%;
+    background-color: #C9ECB5;
+    margin: auto;
+    padding: 20px 0;
+    
+}
+
+.hot-deals {
+    display: flex;
+    width: 70%;
+    margin: auto;
+    
+}
+.col-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hot-deals h1{
+    font-size: 36px;
+    text-align: left;
+    color: #6CB840;
+    margin: 0%;
+}
+.col-1 h2 {
+    text-align: left;
+    margin: 0%;
+}
+.col-1 p {
+    text-align: center;
+    margin-right: 30px;
+}

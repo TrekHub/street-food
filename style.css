@@ -13,13 +13,16 @@ body {
 }
 
 .circle {
-    width: 90%;
-    height: 70%;
+    width: 1200px;
+    height: 1200px;
+    border-radius: 50%;
     background-color: #6fb14b;
     position: absolute;
     top: 0;
     right: 0;
-    clip-path: circle(10% at 0 50%);
+    transform: translate(60px, -50%) rotate(-45deg);
+    z-index: 0;
+    overflow: hidden;
   
    
 

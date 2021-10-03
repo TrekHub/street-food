@@ -191,3 +191,20 @@ font-size: 15px;
     margin: 0 10px;
    
 }
+#icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+#icons button{
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    border: #6CB840;
+    background-color: #6CB840;
+
+}

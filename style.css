@@ -5,16 +5,23 @@ body {
 }
 
 .header {
-    height: 700px;
+    height: 100vh;
     width: 100%;
     background-color: rgb(200, 192, 192);
+    position: relative;
+
 }
 
 .circle {
-    width: 100%;
-    height: 100%;
+    width: 90%;
+    height: 70%;
     background-color: #6fb14b;
-    clip-path: circle(40% at right 20%);
+    position: absolute;
+    top: 0;
+    right: 0;
+    clip-path: circle(10% at 0 50%);
+  
+   
 
 }
 .info-section {

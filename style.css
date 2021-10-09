@@ -10,6 +10,7 @@ body,
 
 .full {
   position: relative;
+  overflow-x: hidden;
 }
 
 .head {
@@ -69,6 +70,9 @@ body,
   .burger {
     display: none;
   }
+
+
+  
 
   .empty {
     display: initial !important;
